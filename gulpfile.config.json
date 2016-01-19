@@ -1,0 +1,16 @@
+{
+    "lib": {
+        "source": "node_modules",
+        "dest": "www/lib"
+    },
+    "app": {
+        "source": "src",
+        "dest": "www"
+    },
+    "server": {
+        "root": "./",
+        "host": "localhost",
+        "port": 8080,
+        "fallback": "./index.html"
+    }
+}
